@@ -7,4 +7,14 @@
     <string name="text_view_Parte_Entera">Parte entera</string>
     <string name="text_view_Residuo">Residuo</string>"
     <string name="text_view_Numero_Invertdo">Número Invertido</string>
+    <string name="button_text_Mostrar">Mostrar Resutados</string>
+    <string name="button_text_Siguiente">Siguiente</string>
+
+    <string name="editText_Nombres_hint">Nombres</string>
+    <string name="editText_Apellidos_hint">Apellidos</string>
+    <string name="editText_Dividendo_hint">Dividendo</string>
+    <string name="editText_Divisor_hint">Divisor</string>
+    <string name="editText_Parte_Entera_hint">Parte entera</string>
+    <string name="editText_Residuo_hint">Residuo</string>
+    <string name="editText_Numero_Invertdo_hint">Número Invertido</string>
 </resources>
