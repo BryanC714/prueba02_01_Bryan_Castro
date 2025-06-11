@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">prueba02_01_Bryan_Castro</string>
+    <string name="text_view_Nombres">Nombres</string>
+    <string name="text_view_Apellidos">Apellidos</string>
+    <string name="text_view_Dividendo">Dividendo</string>
+    <string name="text_view_Divisor">Divisor</string>
+    <string name="text_view_Parte_Entera">Parte entera</string>
+    <string name="text_view_Residuo">Residuo</string>"
+    <string name="text_view_Numero_Invertdo">Número Invertido</string>
 </resources>
