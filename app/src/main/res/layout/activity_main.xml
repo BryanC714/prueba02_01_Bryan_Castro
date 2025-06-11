@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".BryanCastroActivity1">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -61,64 +61,77 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editText_Nombres"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text="@string/editText_Nombres_hint" />
-
-        <EditText
-            android:id="@+id/editTextText7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text="@string/editText_Apellidos_hint" />
-
-        <EditText
-            android:id="@+id/editTextText2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:drawingCacheQuality="auto"
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
 
         <EditText
-            android:id="@+id/editTextText3"
+            android:id="@+id/editText_Apellidos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/editText_Dividendo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/editTextDivisor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/editTextParteEntera"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editTextResiduo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editTextNumeroI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawingCacheQuality="auto"
+            android:editable="false"
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
