@@ -48,7 +48,28 @@ public class BryanCastroActivity1 extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),BryanCastroActivity2.class);
                 startActivity(intent);
             }
-        });
 
+        });
+        buttonMostrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle extras = getIntent().getExtras();
+                String Nombres=extras.getString("NombresP3");
+                String Apellidos=extras.getString("ApellidoP3");
+                String Dividendo=extras.getString("Dividendop3");
+                String Divisor=extras.getString("DivisorP3");
+                String Numero=extras.getString("NumeroP3");
+                editTextNombres.setText(Nombres);
+                editTextApellidos.setText(Apellidos);
+                editTextDividendo.setText(Dividendo);
+                editTextDivisor.setText(Divisor);
+
+            }
+        });
+        }
+
+    public int ParteEntera(int dividendo, int divisor) {
+        int parteEntera = dividendo / divisor;
+        return parteEntera;
     }
-}
+    }
