@@ -45,7 +45,13 @@ public class BryanCastroActivity1 extends AppCompatActivity {
         buttonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String dividendo=editTextDividendo.getText().toString();
+                String divisor=editTextDivisor.getText().toString();
+                String numero=editTextNumeroInvertido.getText().toString();
                 Intent intent = new Intent(getApplicationContext(),BryanCastroActivity2.class);
+                intent.putExtra(dividendo,"Dividendo");
+                intent.putExtra(divisor,"Divisor");
+                intent.putExtra(numero,"Numero");
                 startActivity(intent);
             }
 
@@ -63,13 +69,27 @@ public class BryanCastroActivity1 extends AppCompatActivity {
                 editTextApellidos.setText(Apellidos);
                 editTextDividendo.setText(Dividendo);
                 editTextDivisor.setText(Divisor);
-
+                editTextParteEntera.setText(String.valueOf(Castro_ParteEntera(Integer.parseInt(Dividendo),Integer.parseInt(Divisor))));
+                editTextResiduo.setText(String.valueOf(Castro_Residuo(Integer.parseInt(Dividendo),Integer.parseInt(Divisor))));
+                editTextNumeroInvertido.setText(String.valueOf(Castro_NumeroInvertido(Integer.parseInt(Numero))));
             }
         });
         }
 
-    public int ParteEntera(int dividendo, int divisor) {
+    public int Castro_ParteEntera(int dividendo, int divisor) {
         int parteEntera = dividendo / divisor;
         return parteEntera;
+    }
+    public int Castro_Residuo(int dividendo, int divisor){
+        return dividendo % divisor;
+    }
+
+    public int Castro_NumeroInvertido(int numero){
+        int numeroInvertido = 0;
+        while (numero != 0) {
+            numeroInvertido = numeroInvertido * 10 + numero % 10;
+            numero /= 10;
+        }
+        return numeroInvertido;
     }
     }

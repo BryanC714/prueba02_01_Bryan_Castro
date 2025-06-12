@@ -48,5 +48,12 @@ private Button buttonCerrarP2;
                 startActivity(intent);
             }
         });
+        Bundle extras = getIntent().getExtras();
+        String dividendo = extras.getString("Dividendo");
+        String divisor = extras.getString("Divisor");
+        String numero = extras.getString("Numero");
+        editTextDividendoP2.setText(dividendo);
+        editTextDivisorP2.setText(divisor);
+        editTextNumeroP2.setText(numero);
     }
 }

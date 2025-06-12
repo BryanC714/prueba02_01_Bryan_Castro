@@ -67,8 +67,9 @@
             android:layout_weight="1"
             android:drawingCacheQuality="auto"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Nombres_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editText_Apellidos"
@@ -76,10 +77,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawingCacheQuality="auto"
-            android:editable="false"
+            android:editable="true"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Apellidos_hint"
             android:inputType="text"
-            android:text="Name" />
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editText_Dividendo"
@@ -87,10 +90,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawingCacheQuality="auto"
-            android:editable="false"
+            android:editable="true"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Dividendo_hint"
             android:inputType="text"
-            android:text="Name" />
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editTextDivisor"
@@ -98,10 +103,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawingCacheQuality="auto"
-            android:editable="false"
+            android:editable="true"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Divisor_hint"
             android:inputType="text"
-            android:text="Name" />
+            tools:ignore="HardcodedText,LabelFor,TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextParteEntera"
@@ -109,10 +116,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawingCacheQuality="auto"
-            android:editable="false"
+            android:editable="true"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Parte_Entera_hint"
             android:inputType="text"
-            android:text="Name" />
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editTextResiduo"
@@ -122,8 +131,10 @@
             android:drawingCacheQuality="auto"
             android:editable="false"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Residuo_hint"
             android:inputType="text"
-            android:text="Name" />
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editTextNumeroI"
@@ -133,8 +144,10 @@
             android:drawingCacheQuality="auto"
             android:editable="false"
             android:ems="10"
+            android:enabled="false"
+            android:hint="@string/editText_Numero_Invertdo_hint"
             android:inputType="text"
-            android:text="Name" />
+            android:minHeight="48dp" />
     </LinearLayout>
 
     <LinearLayout

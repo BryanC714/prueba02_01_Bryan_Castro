@@ -54,40 +54,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/editText_Nombres_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextApellidosP2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/editText_Apellidos_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextDividendoP2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Dividendo_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextDivisorP2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Divisor_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextNumero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Numero_Invertdo_hint"
+            android:inputType="text" />
     </LinearLayout>
 
     <LinearLayout

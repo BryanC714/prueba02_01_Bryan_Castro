@@ -53,40 +53,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Nombres_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextApellidoP3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="@string/editText_Apellidos_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextDividendop3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/editText_Dividendo_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextDivisorP3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/editText_Divisor_hint"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextNumeroP3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/text_view_Numero"
+            android:inputType="text" />
     </LinearLayout>
 
     <LinearLayout
