@@ -17,4 +17,7 @@
     <string name="editText_Parte_Entera_hint">Parte entera</string>
     <string name="editText_Residuo_hint">Residuo</string>
     <string name="editText_Numero_Invertdo_hint">Número Invertido</string>
+    <string name="button_text_Cerrar">Cerrar</string>"
+    <string name="text_view_Numero">Numero</string>
+
 </resources>
