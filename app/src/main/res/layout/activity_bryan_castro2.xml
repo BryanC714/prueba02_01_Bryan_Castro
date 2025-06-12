@@ -96,13 +96,13 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonSiguienteP2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_text_Siguiente" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonCerrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_text_Cerrar" />

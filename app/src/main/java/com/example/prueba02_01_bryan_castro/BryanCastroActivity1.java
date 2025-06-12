@@ -42,10 +42,11 @@ public class BryanCastroActivity1 extends AppCompatActivity {
         buttonMostrar=findViewById(R.id.buttonMostrar);
         buttonSiguiente=findViewById(R.id.buttonSp1);
 
-        buttonMostrar.setOnClickListener(new View.OnClickListener() {
+        buttonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),BryanCastroActivity2.class);
+                startActivity(intent);
             }
         });
 
