@@ -30,6 +30,13 @@ private Button buttonCerrarP2;
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Bundle extras = getIntent().getExtras();
+        String dividendo = extras.getString("Dividendo");
+        String divisor = extras.getString("Divisor");
+        String numero = extras.getString("Numero");
+        editTextDividendoP2.setText(dividendo);
+        editTextDivisorP2.setText(divisor);
+        editTextNumeroP2.setText(numero);
         editTextApellidosP2=findViewById(R.id.editTextApellidosP2);
         editTextDividendoP2=findViewById(R.id.editTextDividendoP2);
         editTextDivisorP2=findViewById(R.id.editTextDivisorP2);
@@ -48,12 +55,11 @@ private Button buttonCerrarP2;
                 startActivity(intent);
             }
         });
-        Bundle extras = getIntent().getExtras();
-        String dividendo = extras.getString("Dividendo");
-        String divisor = extras.getString("Divisor");
-        String numero = extras.getString("Numero");
-        editTextDividendoP2.setText(dividendo);
-        editTextDivisorP2.setText(divisor);
-        editTextNumeroP2.setText(numero);
+        buttonCerrarP2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }

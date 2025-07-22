@@ -36,10 +36,10 @@ private Button button3;
         button3=findViewById(R.id.button3);
 
         Bundle extras = getIntent().getExtras();
-        String Nombresp = extras.getString("Nombresp2");
-        String ApellidosP = extras.getString("ApellidosP2");
-        editTextNombresP3.setText(Nombresp);
-        editTextApellidoP3.setText(ApellidosP);
+        String Nombres = extras.getString("Nombresp2");
+        String Apellidos = extras.getString("ApellidosP2");
+        editTextNombresP3.setText(Nombres);
+        editTextApellidoP3.setText(Apellidos);
 
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
